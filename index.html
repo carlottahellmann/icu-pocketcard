@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICU Pocketcard - Ressourcen</title>
+    <script src="https://unpkg.com"></script>
+    <style>
+        body { 
+            font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+            background: #f4f7f6; 
+            color: #333; 
+            max-width: 600px; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+        .card { background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 25px; text-align: center; }
+        h1 { color: #2c3e50; font-size: 1.4rem; margin-bottom: 8px; font-weight: bold; line-height: 1.3; }
+        p { color: #555; font-size: 0.95rem; line-height: 1.6; margin-top: 0; }
+        .version-text { color: #7f8c8d; font-size: 0.9rem; margin-top: 0; }
+        .btn { 
+            display: inline-flex; 
+            align-items: center;
+            gap: 8px;
+            background: #2c3e50; 
+            color: white; 
+            padding: 12px 24px; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold; 
+            margin-top: 15px; 
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: #34495e; }
+        .section-box { background: white; padding: 25px 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 25px; }
+        h2 { font-size: 1.1rem; color: #2c3e50; border-bottom: 2px solid #f2f4f4; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0; }
+        h3 { font-size: 1rem; color: #2c3e50; margin-top: 20px; margin-bottom: 8px; font-weight: bold; }
+        ul { list-style: none; padding: 0; margin: 0; }
+        .sources-list li { 
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 16px 0; 
+            padding-bottom: 12px;
+            border-bottom: 1px solid #f9f9f9;
+            font-size: 0.95rem; 
+        }
+        .sources-list li:last-child { border-bottom: none; }
+        .hint-box ul { list-style: disc; padding-left: 20px; margin-top: 8px; }
+        .hint-box li { display: list-item; border: none; padding: 0; margin: 6px 0; font-size: 0.95rem; }
+        .icon-wrapper { color: #3498db; display: flex; align-items: center; }
+        a { color: #2980b9; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .hint-box { background: #ebf5fb; border-left: 4px solid #3498db; padding: 15px; border-radius: 4px; margin-top: 15px; }
+        .legal-notice { font-size: 0.8rem; color: #9ca3af; border-top: 1px solid #e5e7eb; padding-top: 15px; margin-top: 25px; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div style="color: #e74c3c; margin-bottom: 10px;"><i data-lucide="activity" style="width: 32px; height: 32px;"></i></div>
+        <h1>POCKETCARD: Strukturierte Untersuchung von Patient:innen auf der Intensivstation</h1>
+        <p class="version-text">Version: 2026 | Dr. med. C. Hellmann</p>
+        <a href="pocketcard_v1.pdf" class="btn" download>
+            <i data-lucide="download" style="width: 18px; height: 18px;"></i>
+            Pocketcard laden (PDF)
+        </a>
+    </div>
+
+    <div class="section-box">
+        <h2>Hinweise zu dieser Pocketcard</h2>
+        <p style="margin-top: 15px;">
+            Dieses Pocketcard bietet eine Orientierungshilfe für den klinischen Alltag auf der Intensivstation.
+        </p>
+        <p>Sie wurde für Ärzt:innen zu Beginn ihrer Tätigkeit auf der Intensivstation entwickelt und dient als Leitfaden für die strukturierte <strong>Untersuchung kritisch kranker Patient:innen</strong>.</p>
+        
+        <div class="hint-box">
+            <strong>Wichtiger Hinweis:</strong><br>
+            Es geht <strong>nicht</strong> darum, all diese Punkte jeden Tag bei allen Intensivpatient:innen abzuarbeiten. Die Pocketcard soll stattdessen:
+            <ul>
+                <li>Einen Überblick über die Bestandteile einer Untersuchung auf der Intensivstation verschaffen.</li>
+                <li>Einen <strong>roten Faden</strong> bieten, an dem man sich während der Visite und der körperlichen Untersuchung entlanghangeln kann.</li>
+                <li>Dabei helfen, die strukturierte Untersuchung auf der Intensivstation <strong>patientenindividuell</strong> zu gestalten.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2>Quellen</h2>
+        <p style="margin-top: 15px; font-size: 0.95rem; color: #555;">Die Inhalte dieser Karte basieren auf eigener klinischer Erfahrung und wurden von folgenden Quellen und FOAMed-Ressourcen inspiriert:</p>
+        <ul class="sources-list">
+            <li>
+                <div class="icon-wrapper"><i data-lucide="heart-pulse"></i></div>
+                <div><strong>LITFL:</strong> <a href="https://litfl.com/fast-hugs-in-bed-please/" target="_blank">FAST HUGS IN BED PLEASE</a></div>
+            </li>
+            <li>
+                <div class="icon-wrapper"><i data-lucide="file-text"></i></div>
+                <div><strong>LITFL:</strong> <a href="https://litfl.com/documentation-in-icu/" target="_blank">Documentation in ICU</a></div>
+            </li>
+            <li>
+                <div class="icon-wrapper"><i data-lucide="book-open"></i></div>
+                <div><strong>Amboss:</strong> <a href="https://next.amboss.com/de/article/TG06Ah?q=untersuchung%20intensivstation" target="_blank">Klinische Untersuchung auf der Intensivstation</a></div>
+            </li>
+            <li>
+                <div class="icon-wrapper"><i data-lucide="alert-triangle"></i></div>
+                <div><strong>Notfallguru:</strong> <a href="https://www.notfallguru.de/leitsymptome/allgemeines/kritisch" target="_blank">Der kritische Patient</a></div>
+            </li>
+            <li>
+                <div class="icon-wrapper"><i data-lucide="clipboard-check"></i></div>
+                <div><strong>Anesthguide:</strong> <a href="https://anesthguide.com/topic/checklist-for-icu-rounds/" target="_blank">Checklist for ICU Rounds</a></div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section-box">
+        <h2>Weitere Informationen</h2>
+        <p style="margin-top: 15px;"><strong>Erstellt von:</strong> Dr. med. C. Hellmann<br><strong>Version:</strong> 2026</p>
+    <div class="section-box">
+        <h2>Kritik &amp; Neue Ideen</h2>
+        <p style="margin-top: 15px; font-size: 0.95rem; color: #555;">
+            Free Open Access Medical Education lebt vom Austausch. Wenn du Fehler findest, Ergänzungen vorschlagen möchtest oder Änderungswünsche hast, kannst du diese direkt auf GitHub einreichen.
+        </p>
+        <p style="font-size: 0.95rem;">
+            Über folgenden Link kannst du direkt ein Feedback-Ticket erstellen:<br>
+            <a href="https://github.com/carlottahellmann/icu-pocketcard" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; font-weight: bold;">
+                <i data-lucide="message-square-plus" style="width: 16px; height: 16px;"></i>
+                Feedback-Ticket auf GitHub erstellen
+            </a>
+        </p>
+    </div>
+        
+        <div class="legal-notice">
+            <em>Rechtlicher Hinweis: Diese Pocketcard dient als Lern- und Orientierungshilfe für medizinisches Fachpersonal. Sie ersetzt nicht die ärztliche Beurteilung, die hauseigenen Standards (SOPs) oder das Einhalten aktueller Leitlinien. Die Anwendung erfolgt auf eigene Verantwortung.</em>
+        </div>
+    </div>
+
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>
